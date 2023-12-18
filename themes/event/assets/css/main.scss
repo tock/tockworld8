@@ -16,8 +16,8 @@ header {
   &:before {
     content: ' ';
     position: absolute;
-    top: calc(1em + 2rem);
-    height: calc(100% - 1em - 2rem);
+    top: 0;
+    height: 100%;
     width: 100%;
     background-image: url("../background.webp");
     background-size: cover;
@@ -60,7 +60,7 @@ header {
 
   nav {
     grid-area: nav;
-    background: black;
+    background: linear-gradient(#000, rgba(0, 0, 0, 0));
     padding: 1rem;
     ul {
       padding: 0;

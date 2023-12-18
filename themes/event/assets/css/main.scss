@@ -8,6 +8,9 @@ body {
   background: #607D8B;
   background: #455A64;
   color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -71,13 +74,19 @@ header {
     }
   }
   a {
-    color: white;
+    color: inherit;
   }
 }
 
-main {
+main, footer {
   margin: 0 auto;
+  width: 100%;
   max-width: 1800px;
+}
+
+main {
+  flex-grow: 4;
+
   padding: 2rem;
 
   h1 {
@@ -99,6 +108,7 @@ main {
 }
 
 footer {
+  font-size: 0.8em;
 }
 
 a {

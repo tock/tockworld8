@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Orbitron&display=swap');
+
 body {
-  font-family: sans-serif;
   line-height: 1.5;
   margin: 0rem auto;
+  font-family: 'Noto Sans Display', sans-serif;
   font-size: 18pt;
   background: #607D8B;
   background: #455A64;
@@ -10,6 +12,7 @@ body {
 
 header {
   position: relative;
+  font-family: 'Orbitron', sans-serif;
   &:before {
     content: ' ';
     position: absolute;

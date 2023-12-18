@@ -1,0 +1,3 @@
+<h1><a href="{{ site.BaseURL }}">{{ site.Title }}</a></h1>
+<h2>{{ .Site.Params.date }}<br/>{{ .Site.Params.location }}</h2>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

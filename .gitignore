@@ -1,0 +1,8 @@
+.envrc
+.DS_Store
+.idea
+*.log
+tmp/
+
+public/
+resources/

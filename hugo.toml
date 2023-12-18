@@ -1,0 +1,23 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'TockWorld 7'
+theme = 'event'
+
+[params]
+date = "June 26-28, 2024"
+location = "San Diego, CA"
+
+[[menus.main]]
+name = 'Venue'
+pageRef = '/venue'
+weight = 20
+
+[[menus.main]]
+name = 'Agenda'
+pageRef = '/agenda'
+weight = 30
+
+[[menus.main]]
+name = 'Register'
+pageRef = '/register'
+weight = 40

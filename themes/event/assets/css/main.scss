@@ -1,3 +1,4 @@
+@use 'sass:color';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&family=Orbitron&display=swap');
 
 body {
@@ -41,8 +42,9 @@ header {
     "padding1"
     "title"
     "date"
+    "tickets"
     "padding2";
-  grid-template-rows: auto 3rem auto auto 6rem;
+  grid-template-rows: auto 3rem auto auto auto 3rem;
 
   h1 {
     grid-area: title;
@@ -59,6 +61,21 @@ header {
     text-shadow: 3px 3px 16px #333;
     margin: 0;
     padding: 0;
+  }
+
+  div.buy {
+    grid-area: tickets;
+    margin: 2rem auto;
+    a {
+      display: block;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 3px 0 darken(#607D8B, 10%),inset 0 2px 0 lighten(#607D8B, 10%);
+      background: #607D8B;
+      &:hover {
+        background: lighten(#607D8B, 10%);
+      }
+    }
   }
 
   nav {

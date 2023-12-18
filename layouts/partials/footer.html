@@ -1,0 +1,14 @@
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '779461669837',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-779461669837',
+        onOrderComplete: exampleCallback
+    });
+</script>

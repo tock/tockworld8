@@ -16,8 +16,3 @@ weight = 20
 name = 'Agenda'
 pageRef = '/agenda'
 weight = 30
-
-[[menus.main]]
-name = 'Register'
-pageRef = '/register'
-weight = 40

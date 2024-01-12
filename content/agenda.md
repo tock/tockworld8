@@ -10,16 +10,16 @@ TBD
 
 ## Day 2 (June 27th) - Ecosystem
 
-|         |             |     |
-|---------|-------------|-----|
-| 9:00am  | Keynote     | TBD |
-| 10:00am | TBD         | TBD |
-| 11:00am | TBD         | TBD |
-| 12:00pm | Lunch break |     |
-| 1:00pm  | TBD         | TBD |
-| 2:00pm  | TBD         | TBD |
-| 3:00pm  | TBD         | TBD |
-| 4:00pm  | TBD         | TBD |
+|         |             |
+|---------|-------------|
+| 9:00am  | Keynote     |
+| 10:00am | TBD         |
+| 11:00am | TBD         |
+| 12:00pm | Lunch break |
+| 1:00pm  | TBD         |
+| 2:00pm  | TBD         |
+| 3:00pm  | TBD         |
+| 4:00pm  | TBD         |
 
 
 ## Day 3 (June 28th) - Tutorials

@@ -4,7 +4,11 @@ date = 2023-12-18T00:11:39-05:00
 draft = false
 +++
 
-## Day 1 (June 26th) - Ecosystem
+## Day 3 (June 26th) - Core Day
+
+TBD
+
+## Day 2 (June 27th) - Ecosystem
 
 |         |             |     |
 |---------|-------------|-----|
@@ -18,7 +22,7 @@ draft = false
 | 4:00pm  | TBD         | TBD |
 
 
-## Day 2 (June 27th) - Tutorials
+## Day 3 (June 28th) - Tutorials
 
 |                 | Security Track         | Networking Track  |
 |-----------------|------------------------|-------------------|
@@ -27,6 +31,3 @@ draft = false
 | 12:30pm-2:00pm  | Lunch break            |                   |
 | 2:00pm-4:30pm   | Encapsulated Functions | Remote Update     |
 
-## Day 3 (June 28th) - Developer Day
-
-Unconference

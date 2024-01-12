@@ -4,7 +4,7 @@ date = 2023-12-18T00:11:39-05:00
 draft = false
 +++
 
-## Day 3 (June 26th) - Core Day
+## Day 1 (June 26th) - Core Day
 
 TBD
 

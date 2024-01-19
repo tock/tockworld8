@@ -55,14 +55,14 @@ for secure and reliable embedded systems. The tutorial will provide hands-on
 experience with three aspects of Tock: the kernel, secure systems, and
 networking.
 
-|                 | Security Track         | Networking Track  |
-|-----------------|------------------------|-------------------|
-| 9:00am          | Welcome                |                   |
-| 9:30am-10:00am  | Computer setup         |                   |
-| 10:00am-10:15am | Tock Introduction      |                   |
-| 10:15am-12:30pm | Secure Element         | Thread Networking |
-| 12:30pm-1:30pm  | Lunch break            |                   |
-| 1:30pm-3:00pm   | Encapsulated Functions | Remote Update     |
-| 3:00pm-4:15pm   | App signing            | Device discovery  |
-| 4:15pm-4:30pm   | Wrap-up and next steps |                   |
+|                 | Joint                  |  Security Track        | Networking Track  |
+|-----------------|------------------------|------------------------|-------------------|
+| 9:00am          | Welcome                |                        |                   |
+| 9:30am-10:00am  | Computer setup         |                        |                   |
+| 10:00am-10:15am | Tock Introduction      |                        |                   |
+| 10:15am-12:30pm |                        | Secure Element         | Thread Networking |
+| 12:30pm-1:30pm  | Lunch break            |                        |                   |
+| 1:30pm-3:00pm   |                        | Encapsulated Functions | Remote Update     |
+| 3:00pm-4:15pm   |                        | App signing            | Device discovery  |
+| 4:15pm-4:30pm   | Wrap-up and next steps |                        |                   |
 

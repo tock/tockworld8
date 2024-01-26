@@ -4,13 +4,16 @@ date = 2023-12-18T00:11:39-05:00
 draft = false
 +++
 
-## Day 1 (June 26th, 2024) - Developer Day
+## Day 1 (June 26th, 2024) - Contributors Day
 
-The first day is focused on the development of the Tock kernel and other
-projects in the Tock ecosystem. This will feature talks about new experimental
-Tock features, discussions on future Tock designs, and work on prototyping new
-features. The intended audience for this first day are developers who have
-contributed (or plan to) to the Tock repository.
+The first day is intended for current _and future_ contributors to the Tock
+project to have in-depth discussions focused on the development of the Tock
+kernel and other projects in the Tock ecosystem. This will feature talks about
+new experimental Tock features, discussions on future Tock designs, and work on
+prototyping new features.
+
+The discussions will be highly technical and Tock-specific. If that resonates
+with you, please plan to attend!
 
 Tentative schedule:
 

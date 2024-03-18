@@ -43,8 +43,9 @@ header {
     "title"
     "date"
     "tickets"
+    "cfp"
     "padding2";
-  grid-template-rows: auto 3rem auto auto auto 3rem;
+  grid-template-rows: auto 3rem auto auto auto auto 3rem;
 
   h1 {
     grid-area: title;
@@ -63,9 +64,8 @@ header {
     padding: 0;
   }
 
-  div.buy {
-    grid-area: tickets;
-    margin: 2rem auto;
+  div.buy, div.cfp {
+    margin: 1rem auto;
     a {
       display: block;
       padding: 0.5rem 1rem;
@@ -76,6 +76,13 @@ header {
         background: lighten(#607D8B, 10%);
       }
     }
+  }
+
+  div.buy {
+    grid-area: tickets;
+  }
+  div.cfp {
+    grid-area: cfp;
   }
 
   nav {

@@ -16,3 +16,8 @@ weight = 20
 name = 'Agenda'
 pageRef = '/agenda'
 weight = 30
+
+[[menus.main]]
+name = 'Submit a Talk'
+pageRef = '/CFP'
+weight = 30

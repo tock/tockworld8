@@ -147,6 +147,45 @@ main {
   }
 }
 
+.speakers + ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    justify-content: center;
+
+    li {
+	width: 420px;
+	font-size: 0.75em;
+	background-color: #7b96a3;
+	padding: 1em;
+	border-radius: 0.5rem;
+	box-shadow: 3px 3px 3px #4b626d;
+	display: grid;
+	grid-template-areas:     "image name"
+				 "bio bio";
+        grid-template-columns: 1fr 1fr;
+	h3 {
+	    grid-area: name;
+	    text-align: center;
+	    margin: auto auto;
+	}
+	p:has(img) {
+	    grid-area: image;
+	    img {
+		display: block;
+		margin: auto auto;
+		width: 75%;
+		border-radius: 0.5rem;
+	    }
+	}
+	p {
+	    grid-area: bio;
+	}
+    }
+}
+
 footer {
   font-size: 0.8em;
 }

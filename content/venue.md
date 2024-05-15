@@ -115,7 +115,64 @@ more interesting things to do / places to eat, etc in the immediate vicinity.
 ## Extending your trip 😇
 
 San Diego is both the 8th-most populous US city, and home to some of the
-([#8, #9](https://fox5sandiego.com/news/local-news/coronado-beach-makes-list-of-top-beaches-in-us/) or [#1](https://www.sandiegouniontribune.com/business/tourism/sdut-coronado-no-1-beach-in-us-2012may25-htmlstory.html) depending who you talk to) best
-beaches in the US.
+best beaches in the US.
 
-There are also many other [things to do and places to visit](https://parents.ucsd.edu/family-resources/visiting-san-diego.html)!
+
+### Things to Do
+
+- Balboa Park & San Diego Zoo
+   - Dedicated public space
+[since Mexican rule](https://en.wikipedia.org/wiki/Balboa_Park_(San_Diego)#History),
+Balboa Park is a large, urban greenscape with
+[over 17 museums](https://www.balboapark.org/explore/museums),
+a panoply of rotating food vendors,
+a [community of local artists](https://spanishvillageartcenter.com/)
+and home to the [world-famous San Diego Zoo](https://zoo.sandiegozoo.org/).
+You can easily spend a whole day in the park, and an evening afterwards in any
+of the vibrant surrounding neighborhoods of Hillcrest, North Park, or South Park.
+   - [More about Balboa](https://www.balboapark.org/)
+   - [More about the San Diego Zoo](https://zoo.sandiegozoo.org/)
+
+- Belmont Park &amp; Mission Beach
+   - A California classic, [Belmont Park](https://www.belmontpark.com/) is
+       a boardwalk amusement park on the beach. It features a small wooden
+       roller coaster, carousel, and other classic rides. There is also
+       mini-golf, an
+       [Escape Room](https://www.belmontpark.com/game/escapology-san-diego/)
+       that suits smaller parties (2-6), zipline, a rock-climbing wall, and
+       more.
+   - The park abuts [Mission Beach](https://en.wikipedia.org/wiki/Mission_Beach,_San_Diego)
+       a two-mile long beautiful stretch of perfect sand and water. If you are
+       interested in trying out a surfing lesson or just playing in the waves,
+       this is a great place to go. These is also a wide walking / riding path
+       that runs the length of the beach; a great place to rent a beach cruiser
+       bike or some skates and go for a roll.
+
+- Theme Parks
+   - [Sea World](https://seaworld.com/san-diego/) (more roller coasters than water shows nowadays)
+   - [Sesame Place](https://sesameplace.com/san-diego/) (Sesame Street come to life; amazing for children)
+   - [Legoland](https://www.legoland.com/california/) (a bit further north, more for older kids than adults)
+
+- Other Beaches, Parks, &amp; Play Areas
+   - There are _many_ great beaches all around the San Diego area.
+      - The closest beach to UCSD's campus is [Black's Beach](https://www.sandiego.org/explore/things-to-do/beaches-bays/blacks-beach.aspx).
+        - (FYI: There is a clearly marked, isolated section which is a nude beach here).
+      - If you're looking for a bigger beach and some coastal nightlife,
+        head to [Ocean Beach](https://www.sandiego.org/explore/things-to-do/beaches-bays/ocean-beach.aspx).
+      - If you're looking for a canine fix, stop by the [Ocean Beach Dog Beach](https://oceanbeachsandiego.com/attractions/beaches/dog-beach), one of the first and largest off-leash dog beaches.
+      - If you're looking for a livelier, younger beach scene [Pacific Beach](https://www.sandiego.org/explore/things-to-do/beaches-bays/pacific-beach.aspx) is for you.
+      - If you want to make a full day of it
+        [Coronado Island](https://coronadovisitorcenter.com/) has everything
+        you need for a day of fine dining and pampering in paradise. Coronado
+        includes Coronado Beach, which (depending on your voters) is
+        consistently ranked as the
+        [best beach in the US](https://www.sandiegouniontribune.com/business/tourism/sdut-coronado-no-1-beach-in-us-2012may25-htmlstory.html">)
+        or at a minimum,
+        the [best beach on the West Coast](https://www.drbeach.org/).
+        - If you're feeling adventurous, consider skipping the drive, and
+          [heading over via Ferry](https://coronadoferrylanding.com/ferry-info/).
+
+There are also many other things to do and places to visit!
+ - [City of San Diego's Guide](https://www.sandiego.org/explore/things-to-do.aspx)
+ - [UCSD's Guide](https://parents.ucsd.edu/family-resources/visiting-san-diego.html)
+ - [State of California's Guide](https://www.visitcalifornia.com/places-to-visit/san-diego/)

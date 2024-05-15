@@ -99,6 +99,7 @@ closest hotels to campus are:
  - [Estancia La Jolla](https://www.estancialajolla.com/)
  - [Residence Inn San Diego La Jolla (Marriott)](https://www.marriott.com/en-us/hotels/lajca-residence-inn-san-diego-la-jolla/overview/)
  - [Hyatt Regency La Jolla](https://www.hyatt.com/hyatt-regency/en-US/jolla-hyatt-regency-la-jolla-at-aventine)
+
 There are many more in the immediate area if you have a preferred chain, etc.
 
 However, the CSE building is
@@ -113,8 +114,8 @@ more interesting things to do / places to eat, etc in the immediate vicinity.
 
 ## Extending your trip 😇
 
-San Diego is both the 8th-most populous US City, and home to some of the
-([8th, 9th](https://fox5sandiego.com/news/local-news/coronado-beach-makes-list-of-top-beaches-in-us/) or [1st](https://www.sandiegouniontribune.com/business/tourism/sdut-coronado-no-1-beach-in-us-2012may25-htmlstory.html) depending who you talk to) best
+San Diego is both the 8th-most populous US city, and home to some of the
+([#8, #9](https://fox5sandiego.com/news/local-news/coronado-beach-makes-list-of-top-beaches-in-us/) or [#1](https://www.sandiegouniontribune.com/business/tourism/sdut-coronado-no-1-beach-in-us-2012may25-htmlstory.html) depending who you talk to) best
 beaches in the US.
 
 There are also many other [things to do and places to visit](https://parents.ucsd.edu/family-resources/visiting-san-diego.html)!

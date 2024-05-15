@@ -21,8 +21,12 @@ Tentative schedule:
 |---------|-------------------------------------------------|
 | 8:00am  | _Breakfast_                                     |
 | 9:00am  | The State of Tock                               |
-| 10:00am | Networking Stack Update                         |
-| 10:30am | Tock Syscall Interface Updates                  |
+| 10:00am | Working Group Reports                           |
+| 10:01am | [WG] Core                                       |
+| 10:10am | [WG] Networking                                 |
+| 10:20am | [WG] OpenTitan                                  |
+| 10:30am | [WG] Documentation                              |
+| 10:40am | Other Sub-project reports (libtock-rs, etc.)    |
 | 11:00am | Kernel Size and Panic Mitigation                |
 | 11:30am | Using C code securely                           |
 | 12:00pm | _Lunch break_                                   |

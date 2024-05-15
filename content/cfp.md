@@ -13,7 +13,7 @@ Talks can be either 25min or 50min. Both include the time for Q&A. Event fees, t
 ## Talk Submission Timeline
 
 * March 18th: Call-for-Proposals Opens
-* April 30th @ midnight PDT: Call-for-Proposals Closes
-* April 30th-May 7th: Proposals Reviewed
-* May 7th: Speaker Decision Emails Sent
-* May 14th: Speakers Announced
+* May 25th @ midnight PDT: Call-for-Proposals Closes
+* May 25th-May 27th: Proposals Reviewed
+* May 28th: Speaker Decision Emails Sent
+* May 29th: Speakers Announced

@@ -141,7 +141,8 @@ of the vibrant surrounding neighborhoods of Hillcrest, North Park, or South Park
        [Escape Room](https://www.belmontpark.com/game/escapology-san-diego/)
        that suits smaller parties (2-6), zipline, a rock-climbing wall, and
        more.
-   - The park abuts [Mission Beach](https://en.wikipedia.org/wiki/Mission_Beach,_San_Diego)
+   - The park abuts
+     [Mission Beach](https://en.wikipedia.org/wiki/Mission_Beach,_San_Diego),
        a two-mile long beautiful stretch of perfect sand and water. If you are
        interested in trying out a surfing lesson or just playing in the waves,
        this is a great place to go. These is also a wide walking / riding path

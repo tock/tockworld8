@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "hugo -d public/tockworld7 --gc --minify"
 
   [build.environment]
     HUGO_VERSION = "0.121.1"
@@ -10,16 +10,16 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-  command = "hugo --gc --minify --enableGitInfo"
+  command = "hugo -d public/tockworld7 --gc --minify --enableGitInfo"
 
   [context.split1.environment]
     HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo -d public/tockworld7 --gc --minify --buildFuture -b $DEPLOY_PRIME_URL/tockworld7"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "hugo -d public/tockworld7 --gc --minify -b $DEPLOY_PRIME_URL/tockworld7"
 
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"

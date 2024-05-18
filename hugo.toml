@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://world.tockos.org/tockworld7'
 languageCode = 'en-us'
 title = 'TockWorld 7'
 theme = 'event'
@@ -9,10 +9,10 @@ location = "San Diego, CA"
 
 [[menus.main]]
 name = 'Venue'
-pageRef = '/venue'
+pageRef = 'venue'
 weight = 20
 
 [[menus.main]]
 name = 'Agenda'
-pageRef = '/agenda'
+pageRef = 'agenda'
 weight = 30

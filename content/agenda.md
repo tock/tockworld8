@@ -184,40 +184,21 @@ operating systems are invited to attend.
   <tr>
     <td>15:30</td>
     <td>1242</td>
-    <td>Lightning Talks</td>
-    <td></td>
+    <td colspan="2">Lightning Talks
+    <small>
+    <p>10–15 minute talks on smaller highlights, works-in-progress,
+    future ventures, or other subjects of interest.</p>
+    <ul>
+      <li><i>Encapsulated Functions</i>, Leon Schuermann, <a href="https://princeton.edu">Princeton</a></li>
+      <li><i>OpenThread</i>, Tyler Potyondy, <a href="https://ucsd.edu">UC San Diego</a></li>
+      <li><i>Dynamic Application Loading</i>, TBD, <a href="https://www.virginia.edu">UVA</a></li>
+      <li><i>Reverse Engineering &amp; Securing an Insulin Pump</i>, Alex Bellon, <a href="https://ucsd.edu">UC San Diego</a></li>
+      <li>[open slot]</li>
+    </ul>
+    </td>
+    </small>
+    </td>
   </tr>
-  <tr class="lightning">
-    <td>15:31</td>
-    <td></td>
-    <td>Encapsulated Functions</td>
-    <td>Leon Schuermann, <a href="https://princeton.edu">Princeton</a></td>
-  </tr>
-  <tr class="lightning">
-    <td>15:45</td>
-    <td></td>
-    <td>OpenThread</td>
-    <td>Tyler Potyondy, <a href="https://ucsd.edu">UC San Diego</a></td>
-  </tr>
-  <tr class="lightning">
-    <td>16:00</td>
-    <td></td>
-    <td>Dynamic Application Loading</td>
-    <td>TBD, <a href="https://www.virginia.edu">UVA</a></td>
-  </tr>
-  <tr class="lightning">
-    <td>16:15</td>
-    <td></td>
-    <td>Reverse Engineering &amp; Securing an Insulin Pump</td>
-    <td>Alex Bellon, <a href="https://ucsd.edu">UC San Diego</a></td>
-  </tr>
-  <tr class="lightning">
-    <td>16:30</td>
-    <td></td>
-    <td>[open]</td>
-    <td></td>
-  </tr>
-  <tr><td colspan="4"></td></tr>
   <tr>
     <td>14:45</td>
     <td>1242</td>

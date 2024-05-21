@@ -7,6 +7,9 @@ theme = 'event'
 date = "June 26-28, 2024"
 location = "San Diego, CA"
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
 [[menus.main]]
 name = 'Venue'
 pageRef = 'venue'

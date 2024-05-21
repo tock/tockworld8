@@ -203,7 +203,7 @@ operating systems are invited to attend.
     <td>14:45</td>
     <td>1242</td>
     <td>Closing Remarks</td>
-    <td>Pat Pannuto, UCSD</td>
+    <td>Pat Pannuto, <a href="https://ucsd.edu/">UC San Diego</a></td>
   </tr>
   <tr>
     <td>17:00</td>

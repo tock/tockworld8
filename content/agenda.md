@@ -172,7 +172,7 @@ operating systems are invited to attend.
     sender (the process console, debug messages, and each application) and to
     show them separately in the UI.</p>
     </small></td>
-    <td>Amalia Camelia Simion, <a href="https://oxidos.io/">OxidOS Automotive</a></td>
+    <td>Amalia Camelia Simion, <a href="https://wyliodrin.com/">Wyliodrin</a></td>
   </tr>
 
 

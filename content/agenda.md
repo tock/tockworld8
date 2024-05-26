@@ -151,9 +151,14 @@ operating systems are invited to attend.
   <tr>
     <td>13:15</td>
     <td>1242</td>
-    <td>CHERI
+    <td>Bringing CHERI to Tock
     <small>
-    <!-- abstract pending -->
+    <p>I will cover the basics of what CHERI and capabilities are. I will show the
+    notable places I had to make changes to support CHERI on Tock; how allow_rx
+    changes, and what the MPU implementation looks like. I will show how upgrading
+    the syscall interface can help protect an application from itself by allowing
+    the kernel to understand object boundaries. Possibly, I might also demo how
+    CHERI can add temporal safety for the C heap.</p>
     </small></td>
     <td>Lawrence Esswood, <a href="https://google.com/">Google</a></td>
   </tr>

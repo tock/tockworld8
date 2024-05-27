@@ -194,3 +194,104 @@ a {
   color: #00c1ee;
   text-decoration: none;
 }
+
+ol.agenda {
+    display: grid;
+    padding: 0;
+    max-width: 80%;
+
+    > li {
+
+	&:first-child {
+	    font-weight: bold;
+	    p {
+		margin-bottom: 1em;
+	    }
+	}
+
+
+	list-style: none;
+	display: grid;
+	border-bottom: 1px solid #eee;
+	padding: 0;
+	grid-template-areas: "time room title speaker"
+	                     "time room description institution";
+	grid-template-columns: 6em 6em 5fr 1fr;
+
+	> * {
+	    padding: 0;
+	    margin: 0;
+	}
+
+	.title {
+	    grid-area: title;
+	}
+
+	.time {
+	    grid-area: time;
+	}
+
+	.room {
+	    grid-area: room;
+	}
+
+	.speaker {
+	    grid-area: speaker;
+	}
+
+	.institution {
+	    grid-area: institution;
+	}
+
+	.description {
+	    grid-area: description;
+	}
+
+	.time, .room, .title, .speaker, .description {
+	    margin-top: 1em;
+	}
+
+	.institution, .description {
+	    margin-bottom: 1em;
+	}
+
+	.description {
+	    font-size: 0.9em;
+	}
+
+	&.break {
+	    grid-template-areas: "time room title title"
+				 "time room description description";
+	    grid-template-columns: 6em 6em 5fr 1fr;
+
+	    .title, .description {
+		text-align: center;
+		font-style: italic;
+	    }
+	}
+
+    }
+}
+
+@media (max-width: 1024px) {
+    ol.agenda {
+	width: 100%;
+	max-width: 100%;
+
+	> li {
+
+	    grid-template-areas: "time title speaker";
+	    grid-template-columns: 6em 5fr 2fr;
+	    .room, .institution, .description {
+		display: none;
+	    }
+	    .time, .room, .title, .speaker, .description {
+		margin-bottom: 1em;
+	    }
+	    &.break {
+		grid-template-areas: "time title speaker";
+		grid-template-columns: 6em 5fr 2fr;
+	    }
+	}
+    }
+}

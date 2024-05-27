@@ -1,0 +1,89 @@
+- break: true
+  time: 8:10
+  room: 1244
+  title: Breakfast
+
+- speaker: Pat Pannuto
+  affiliation: UC San Diego
+  affiliation_link: https://ucsd.edu
+  title: Welcome & Introductions
+  time: 9:00
+  room: 1242
+
+- speaker: Pat Pannuto
+  affiliation: UC San Diego
+  affiliation_link: https://ucsd.edu
+  title: The State of Tock
+  time: 9:15
+  room: 1242
+
+- title: Working Group Reports
+  time: 9:45
+  room: 1242
+  abstract: |
+    Reports from working groups
+
+      * Core, Amit Levy
+      * Networking, Branden Ghena
+      * OpenTitan, [tbd]
+      * Documentation, Brad Campbell
+      * Other sub-projects (libtock-c, rs, etc)
+
+- break: true
+  time: 10:40
+  title: Coffee Break / Schedule Catch-up
+  room: 1244
+
+- speaker: Hudson Ayers
+  affiliation: Cruise
+  title: Kernel Size and Panic Mitigation
+  time: 11:00
+  room: 1242
+
+- speaker: Leon Schuermann
+  affiliation: Princeton
+  affiliation_link: https://princeton.edu
+  title: Using C code securely
+  time: 11:30
+  room: 1242
+
+- break: true
+  time: 12:00
+  title: Lunch break
+  room: Courtyard
+
+- speaker: Branden Ghena
+  affiliation: Northwestern
+  affiliation_link: https://northwestern.edu
+  title: Teaching, Documentation and Support Discussion
+  time: 13:00
+  room: 1242
+
+- speaker: Brad Campbell
+  affiliation: UVA
+  affiliation_link: https://www.virginia.edu
+  title: Follow up from TockWorld 6
+  time: 13:30
+  room: 1242
+
+- title: "Breakout: Vision and Future Developments (1)"
+  time: 14:00
+  room: 1241, 1242, 1244, 1202
+
+- title: "Breakout: Vision and Future Developments (2)"
+  time: 15:00
+  room: 1241, 1242, 1244, 1202
+
+- speaker: Amit Levy
+  affiliation: Princeton
+  affiliation_link: https://www.princeton.edu
+  title: Tock Governance Planning
+  time: 16:00
+  room: 1242
+
+- speaker: Pat Pannuto
+  affiliation: UC San Diego
+  affiliation_link: https://ucsd.edu
+  title: Wrap-up
+  time: 16:45
+  room: 1242

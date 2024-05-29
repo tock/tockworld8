@@ -6,10 +6,10 @@ draft = false
 
 1. [June 26th - Contributors Day](#day1)
 2. [June 27th - Conference](#day2)
-3. June 28th - Tutorials
+3. [June 28th - Tutorials](#day3)
 
 
-## Contributors Day (June 26, 2024) {#day1}
+## Contributor's Day (June 26, 2024) {#day1}
 
 The first day is intended for current _and future_ contributors to the Tock
 project to have in-depth discussions focused on the development of the Tock
@@ -23,7 +23,12 @@ with you, please plan to attend!
 <small>_If you would like to add something to contributors day, please reach
 out to the TW7 organizers (Pat, Brad, & Amit)._</small>
 
+<details>
+  <summary>Contributor's Day Agenda</summary>
 {{% agenda discussions %}}
+</details>
+
+
 
 ## Conference (June 27th 2024) {#day2}
 
@@ -31,4 +36,81 @@ Day two will feature a more general program focused around Tock, root of trust,
 and secure embedded devices. All who are interested in Tock and security-focused
 operating systems are invited to attend.
 
+<details open>
+  <summary>Conference Day Agenda</summary>
 {{% agenda talks %}}
+</details>
+
+
+
+## Tutorials (June 28th, 2024) {#day3}
+
+This one-day, in-person Tutorial will teach how to use the Tock operating
+system for secure and reliable embedded systems. The tutorial will provide
+hands-on experience with three aspects of Tock: the kernel, secure systems,
+and networking.
+
+<details>
+  <summary>Tutorial Day Agenda</summary>
+<table>
+  <tr>
+    <th></th>
+    <th>Joint<br/>
+    <small>(Livestreamed to both rooms)</small></th>
+    <th>Security Track (1242)</th>
+    <th>Networking Track (1202)</th>
+  </tr>
+  <tr>
+    <td>8:10</td>
+    <td><i>Continental Breakfast (1244)</i></td>
+  </tr>
+  <tr>
+    <td>9:00</td>
+    <td colspan="3">Welcome & Tock Introduction</td>
+  </tr>
+  <tr>
+    <td>9:10</td>
+    <td></td>
+    <td>Computer Setup</td>
+    <td>Computer Setup</td>
+  </tr>
+  <tr>
+    <td>9:50</td>
+    <td><i>Coffee Break (1244)</i></td>
+  </tr>
+  <tr>
+    <td>10:00</td>
+    <td></td>
+    <td>Secure Element</td>
+    <td>Thread Networking</td>
+  </tr>
+  <tr>
+    <td>12:00</td>
+    <td><i>Lunch Break (1244/Courtyard)</i></td>
+  </tr>
+  <tr>
+    <td>13:00</td>
+    <td></td>
+    <td>Encapsulated Functions</td>
+    <td>Remote Update</td>
+  </tr>
+  <tr>
+    <td>14:30</td>
+    <td><i>Coffee Break (1244)</i></td>
+  </tr>
+  <tr>
+    <td>14:45</td>
+    <td></td>
+    <td>App signing</td>
+    <td>Device discovery</td>
+  </tr>
+  <tr>
+    <td>16:15</td>
+    <td colspan="3">Wrap-up and next steps</td>
+  </tr>
+  <tr>
+    <td>16:30</td>
+    <td class="break" colspan="3"><i>Event ends — See you next year!</i></td>
+  </tr>
+</table>
+</details>

@@ -24,7 +24,7 @@
   title: Coffee Break
   room: 1244
 
-- speaker: Bobby Reynolds
+- speaker: Bobby Reynolds & Gustavo Scotti
   affiliation: Microsoft
   affiliation_link: https://microsoft.com
   title: Porting Tock to x86 for Pluton

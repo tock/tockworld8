@@ -11,7 +11,7 @@ TockWorld 7 will take place in San Diego, CA, at UC San Diego on June 26-28, 202
 ## Speakers {.speakers}
 
 *
-  ![](speakers/florian.jpg)
+  ![Headshot photo of Florian Gilcher](speakers/florian_gilcher.jpg)
 
   ### Florian Gilcher
 
@@ -24,3 +24,35 @@ TockWorld 7 will take place in San Diego, CA, at UC San Diego on June 26-28, 202
   automotive and industrial settings. For that, he’s currently leading
   the Ferrocene project - the qualification of the Rust projects
   compiler to highest assurances.
+
+
+*
+  ### Lawrence Esswodd
+
+  ![Headshot photo of Lawrence Esswood](speakers/lawrence_esswood.jpg)
+
+  Dr Lawrence Esswood did his PhD at the Computer Laboratory in Cambridge on
+  designing CHERI operating systems with mutual distrust between users and the
+  OS. He now works at Google.
+
+<!--
+*
+  ### Bobby Reynolds
+
+  Microsoft
+
+*
+  ### Gustavo Scotti
+
+  Microsoft
+
+*
+  ### Irina Nita
+
+  OxidOS Automotive
+
+*
+  ### Amalia Camelia Simion
+
+  Wyloiondrin
+-->

@@ -13,7 +13,7 @@ TockWorld 7 will take place in San Diego, CA, at UC San Diego on June 26-28, 202
 *
   ![Headshot photo of Florian Gilcher](speakers/florian_gilcher.jpg)
 
-  ### Florian Gilcher
+  ### Florian Gilcher (Keynote)
 
   Florian Gilcher is one of the co-founders and management directors of
   Ferrous Systems. Previously, he was part of the Rust project, as part

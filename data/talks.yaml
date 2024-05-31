@@ -85,18 +85,21 @@
 - speaker: Lawrence Esswood
   affiliation: Google
   affiliation_link: https://google.com
-  title: Bringing CHERI to Tock
+  title: Bringing Tock to CHERI
   time: 13:15
   room: 1242
   abstract: |
 
-    I will cover the basics of what CHERI and capabilities are. I will
-    show the notable places I had to make changes to support CHERI on
-    Tock; how allow_rx changes, and what the MPU implementation looks
-    like. I will show how upgrading the syscall interface can help
-    protect an application from itself by allowing the kernel to
-    understand object boundaries. Possibly, I might also demo how
-    CHERI can add temporal safety for the C heap.
+    CHERI is a set of ISA extentiontions (with implementations on RISC-V, MIPS,
+    armv8, and more) that add hardware enforced capabilities. These can be
+    utilised by operating systems not just to provide an alternative access
+    control mechanism (instead of an MMU or MPU), but also to enforce
+    system-wide safety in a way that these other mechanisms struggle to help.
+    In this presentation, I will talk about my experience bringing Tock to a
+    RISC-V CHERI platform. I will demonstrate how just slight modifications to
+    code (and new hardware) can improve the hardness of the syscall boundary,
+    and give an example of how the kernel and userspace can work together to
+    provide a temporally safe C heap.
 
 - speaker: Amalia Camelia Simion
   affiliation: Wyliondrin

@@ -18,23 +18,24 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
 *
   ![Headshot photo of Florian Gilcher](speakers/florian_gilcher.jpg)
 
-  ### Florian Gilcher (Keynote)
+  ### Florian Gilcher
 
-  Florian Gilcher is one of the co-founders and management directors of
-  Ferrous Systems. Previously, he was part of the Rust project, as part
-  of the community and core team, and a co-organizer of the Rust Berlin
-  Meetup and the RustFest conference.
-  His current driving motivation is bringing Rust to the industry,
-  currently to the industries of highest assurances, for example
-  automotive and industrial settings. For that, he’s currently leading
-  the Ferrocene project - the qualification of the Rust projects
-  compiler to highest assurances.
+  #### Keynote
+
+  Florian Gilcher is one of the co-founders and management directors
+  of Ferrous Systems. Previously, he was part of the Rust project, as
+  part of the community and core team, and a co-organizer of the Rust
+  Berlin Meetup and the RustFest conference.  He currently leads the
+  Ferrocene project, qualifying Rust project's compiler to highest
+  assurances.
 
 
 *
+  ![Headshot photo of Lawrence Esswood](speakers/lawrence_esswood.jpg)
+
   ### Lawrence Esswodd
 
-  ![Headshot photo of Lawrence Esswood](speakers/lawrence_esswood.jpg)
+  #### CHERI for Tock
 
   Dr Lawrence Esswood did his PhD at the Computer Laboratory in Cambridge on
   designing CHERI operating systems with mutual distrust between users and the

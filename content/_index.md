@@ -8,6 +8,11 @@ TockWorld is an annual in-person gathering for the [Tock](https://tockos.org) co
 
 TockWorld 7 will take place in San Diego, CA, at UC San Diego on June 26-28, 2024.
 
+## Student Travel Grants
+
+Are you a student interested in attending TockWorld? [Apply here](grant) for a travel grant.
+
+
 ## Speakers {.speakers}
 
 *

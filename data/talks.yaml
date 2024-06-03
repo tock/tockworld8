@@ -137,11 +137,27 @@
       * _Reverse Engineering & Securing an Insulin Pump_, Alex Bellon, [UC San Diego](https://ucsd.edu)
       * [open slot]
 
+- speaker: Alexandru Radovici
+  affiliation: Politehnica University of Bucharest
+  affiliation_link: https://upb.ro/
+  title: Teaching Embedded Systems with Tock
+  time: 15:10
+  room: 1242
+  abstract: |
+
+    We have been teaching an embedded undergraduate course using Rust
+    as the programming language. This talk wants to point out the
+    strength of Tock compared to alternative Rust systems and why we
+    think it might be better for education. We also propose a number
+    of modifications, which we are already working on, that would make
+    Tock a excellent choice for teaching embedded courses.
+
+
 - speaker: Pat Pannuto
   affiliation: UC San Diego
   affiliation_link: https://ucsd.edu
   title: Closing Remarks
-  time: 14:45
+  time: 16:45
   room: 1242
 
 - break: true

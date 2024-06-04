@@ -2,12 +2,12 @@
   time: 8:10
   room: 1244
   title: Breakfast
-  description: Light, continental breakfast (yogurt, partfait, bagels, and similar fare)
+  description: Light, continental breakfast (yogurt, parfait, bagels, and similar fare)
 
 - speaker: Pat Pannuto
   affiliation: UC San Diego
   affiliation_link: https://ucsd.edu
-  title: Welcome & Openning Remarks
+  title: Welcome & Opening Remarks
   time: 8:45
   room: 1242
 
@@ -90,7 +90,7 @@
   room: 1242
   abstract: |
 
-    CHERI is a set of ISA extentiontions (with implementations on RISC-V, MIPS,
+    CHERI is a set of ISA extensions (with implementations on RISC-V, MIPS,
     armv8, and more) that add hardware enforced capabilities. These can be
     utilised by operating systems not just to provide an alternative access
     control mechanism (instead of an MMU or MPU), but also to enforce

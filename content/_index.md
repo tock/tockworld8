@@ -41,6 +41,19 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   designing CHERI operating systems with mutual distrust between users and the
   OS. He now works at Google.
 
+*
+  ### Bobby Reynolds
+
+  #### Porting Tock to x86 for Pluton
+
+  ![Headshot photo of Bobby Reynolds](speakers/bobby_reynolds.jpg)
+
+  Bobby Reynolds is a software engineer at Microsoft specializing in
+  firmware development for embedded systems and novel hardware
+  architectures. His team builds firmware for the Pluton Security
+  Processor, and he leads an initiative to adopt Tock OS as the basis
+  for all Pluton firmware.
+
 <!--
 *
   ### Bobby Reynolds

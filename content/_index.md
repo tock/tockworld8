@@ -54,21 +54,28 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   Processor, and he leads an initiative to adopt Tock OS as the basis
   for all Pluton firmware.
 
-<!--
 *
-  ### Bobby Reynolds
+  ### Irina Nita
 
-  Microsoft
+  ![Headshot photo of Irina Nita](speakers/irina_nita.jpg)
+
+  #### Running Tock OS on WebAssembly
+
+  Irina Nita is a Computer Engineering graduate now at OxidOS Automotive
+  who is passionate about Rust in Embedded Systems.
+  OxidOS Automotive is a Rust-based secure ecosystem for safety critical
+  automotive ECUs.
+  Irina's most recent project builds support for running a fully virtualized
+  Tock OS using WebAssembly.
+
+
+<!--
 
 *
   ### Gustavo Scotti
 
   Microsoft
 
-*
-  ### Irina Nita
-
-  OxidOS Automotive
 
 *
   ### Amalia Camelia Simion

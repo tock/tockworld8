@@ -33,7 +33,7 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
 *
   ![Headshot photo of Lawrence Esswood](speakers/lawrence_esswood.jpg)
 
-  ### Lawrence Esswodd
+  ### Lawrence Esswood
 
   #### CHERI for Tock
 

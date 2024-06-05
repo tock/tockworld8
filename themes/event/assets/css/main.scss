@@ -234,7 +234,7 @@ ol.agenda {
 	padding: 0;
 	grid-template-areas: "time room title speaker"
 	                     "time room description institution";
-	grid-template-columns: 6em 6em 5fr 1fr;
+	grid-template-columns: 4em 4em 5fr 1fr;
 
 	> * {
 	    padding: 0;
@@ -280,7 +280,7 @@ ol.agenda {
 	&.break {
 	    grid-template-areas: "time room title title"
 				 "time room description description";
-	    grid-template-columns: 6em 6em 5fr 1fr;
+	    grid-template-columns: 4em 4em 5fr 1fr;
 
 	    .title, .description {
 		text-align: center;
@@ -299,7 +299,7 @@ ol.agenda {
 	> li {
 
 	    grid-template-areas: "time title speaker";
-	    grid-template-columns: 6em 5fr 2fr;
+	    grid-template-columns: 4em 5fr 2fr;
 	    .room, .institution, .description {
 		display: none;
 	    }
@@ -308,7 +308,7 @@ ol.agenda {
 	    }
 	    &.break {
 		grid-template-areas: "time title speaker";
-		grid-template-columns: 6em 5fr 2fr;
+		grid-template-columns: 4em 5fr 2fr;
 	    }
 	}
     }

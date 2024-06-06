@@ -68,6 +68,17 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   Irina's most recent project builds support for running a fully virtualized
   Tock OS using WebAssembly.
 
+*
+  ### Gustavo Scotti
+
+  ![Headshot photo of Irina Nita](speakers/gus_scotti.jpg)
+
+  #### Porting Tock to x86 for Pluton
+
+  Gustavo 'aka Gus' is a Principal Software Dev Lead at Microsoft, leading the
+  Pluton hardware team for upcoming hardware platforms. In my spare time, I
+  like to hike the PNW, and to travel around the world for the best vegan
+  restaurants.
 
 <!--
 

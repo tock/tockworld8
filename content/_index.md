@@ -80,16 +80,16 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   like to hike the PNW, and to travel around the world for the best vegan
   restaurants.
 
-<!--
-
-*
-  ### Gustavo Scotti
-
-  Microsoft
-
-
 *
   ### Amalia Camelia Simion
 
-  Wyloiondrin
--->
+  ![Headshot photo of Amalia Camelia Simion](speakers/amalia_simion.jpg)
+
+  #### Multiplexing Serial Port Messages
+
+  Amalia is a Computer Engineering graduate now at Wyloiondrin.
+  She has been doing Rust in embedded systems for two years. Her bachelor
+  project consisted of a contribution to the UART HIL mechanism in Tock
+  which newly enables efficient multiplexing of a single serial channel
+  across apps.
+

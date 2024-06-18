@@ -71,7 +71,7 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
 *
   ### Gustavo Scotti
 
-  ![Headshot photo of Irina Nita](speakers/gus_scotti.jpg)
+  ![Headshot photo of Gustavo Scotti](speakers/gus_scotti.jpg)
 
   #### Porting Tock to x86 for Pluton
 

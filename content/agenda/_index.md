@@ -50,7 +50,7 @@ system for secure and reliable embedded systems. The tutorial will provide
 hands-on experience with three aspects of Tock: the kernel, secure systems,
 and networking.
 
-**Please follow the guide [here](tutorial/setup) to setup your machine in
+**Please follow the guide [here](../tutorial/setup) to setup your machine in
 advance!**
 
 <details>

@@ -10,42 +10,53 @@
   time: 9:00
   room: 1242
 
-- speaker: Pat Pannuto
-  affiliation: UC San Diego
-  affiliation_link: https://ucsd.edu
+- speaker: Amit Levy
+  affiliation: Princeton
+  affiliation_link: https://www.princeton.edu
   title: The State of Tock
   time: 9:15
   room: 1242
 
-- title: Working Group Reports
+- speaker: Brad Campbell
+  affiliation: UVA
+  affiliation_link: https://www.virginia.edu
+  title: Follow up from TockWorld 6
   time: 9:45
   room: 1242
+
+- title: Working Group Reports
+  time: 10:10
+  room: 1242
   abstract: |
-    Reports from working groups
+    Reports from working groups:
 
       * Core, Amit Levy
-      * Networking, Branden Ghena
+      * Networking, Alex Radovici
       * OpenTitan, [tbd]
-      * Documentation, Brad Campbell
-      * Other sub-projects (libtock-c, rs, etc)
 
 - break: true
   time: 10:40
-  title: Coffee Break / Schedule Catch-up
+  title: Coffee Break
   room: 1244
 
-- speaker: Hudson Ayers
-  affiliation: Cruise
-  title: Kernel Size and Panic Mitigation
+- title: Working Group Reports
   time: 11:00
   room: 1242
+  abstract: |
+    Reports from working groups:
 
-- speaker: Leon Schuermann
+      * Documentation, Brad Campbell
+      * libtock-c, Hudson Ayers
+      * libtock-rs, Johnathan Van Why
+      * Tools, Brad Campbell
+
+- speaker: Amit Levy
   affiliation: Princeton
-  affiliation_link: https://princeton.edu
-  title: Using C code securely
+  title: "Discussion: Userspace Libraries"
   time: 11:30
   room: 1242
+  abstract: |
+    How should libtock-X evolve to support diverse use cases?
 
 - break: true
   time: 12:00
@@ -55,31 +66,46 @@
 - speaker: Branden Ghena
   affiliation: Northwestern
   affiliation_link: https://northwestern.edu
-  title: Teaching, Documentation and Support Discussion
+  title: "Discussion: Contributions and Engagement"
   time: 13:00
+  room: 1242
+  abstract: |
+    How should Tock better facilitate community engagement and contributions? What barriers exist?
+
+- speaker: Leon Schuermann
+  affiliation: Princeton
+  affiliation_link: https://princeton.edu
+  title: Testing and Remote Development
+  time: 13:30
   room: 1242
 
 - speaker: Brad Campbell
   affiliation: UVA
   affiliation_link: https://www.virginia.edu
-  title: Follow up from TockWorld 6
-  time: 13:30
-  room: 1242
-
-- title: "Breakout: Vision and Future Developments (1)"
+  title: "Breakout: Vision and Future Developments (1)"
   time: 14:00
   room: 1241, 1242, 1244, 1202
 
-- title: "Breakout: Vision and Future Developments (2)"
+- break: true
+  time: 14:50
+  title: Break
+  room: 1242
+
+- speaker: Brad Campbell
+  affiliation: UVA
+  affiliation_link: https://www.virginia.edu
+  title: "Breakout: Vision and Future Developments (2)"
   time: 15:00
   room: 1241, 1242, 1244, 1202
 
 - speaker: Amit Levy
   affiliation: Princeton
   affiliation_link: https://www.princeton.edu
-  title: Tock Governance Planning
+  title: "Discussion: Governance and Funding"
   time: 16:00
   room: 1242
+  abstract: |
+    How should the Tock Foundation support the Tock project and become self-sustaining?
 
 - speaker: Pat Pannuto
   affiliation: UC San Diego
@@ -87,3 +113,5 @@
   title: Wrap-up
   time: 16:45
   room: 1242
+  abstract: |
+    Overview of day two (main conference).

@@ -19,3 +19,10 @@ weight = 20
 name = 'Agenda'
 pageRef = 'agenda'
 weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true

@@ -29,6 +29,10 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   Ferrocene project, qualifying Rust project's compiler to highest
   assurances.
 
+  * [GitHub](https://github.com/skade)
+  * [ X](https://twitter.com/@argorak)
+  * [Mastodon](https://hachyderm.io/@skade)
+  {.socials}
 
 *
   ![Headshot photo of Lawrence Esswood](speakers/lawrence_esswood.jpg)
@@ -54,6 +58,10 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   Processor, and he leads an initiative to adopt Tock OS as the basis
   for all Pluton firmware.
 
+  * [GitHub](https://github.com/reynoldsbd)
+  * [LinkedIn](https://www.linkedin.com/in/reynoldsbd3/)
+  {.socials}
+
 *
   ### Irina Nita
 
@@ -67,6 +75,9 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   automotive ECUs.
   Irina's most recent project builds support for running a fully virtualized
   Tock OS using WebAssembly.
+
+  * [GitHub](https://github.com/irina-nita)
+  {.socials}
 
 *
   ### Gustavo Scotti
@@ -103,3 +114,8 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   Alexandru Radovici is an Associate Professor at the Politehnica University in
   Bucharest where he introduced the first Rust development course for embedded
   systems. He has been contributing to Tock for almost four years.
+
+  * [GitHub](alexandruradovici)
+  * [ X](https://twitter.com/wyliodrin)
+  * [LinkedIn](https://www.linkedin.com/in/alexandruradovici/)
+  {.socials}

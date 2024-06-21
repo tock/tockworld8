@@ -156,7 +156,7 @@ main {
     justify-content: space-evenly;
     gap: 1em;
 
-    li {
+    > li {
 	width: 420px;
 	font-size: 0.75em;
 	background-color: #7b96a3;
@@ -167,9 +167,10 @@ main {
 	display: grid;
 	grid-template-areas:     "image name"
 				 "talk talk"
-				 "bio bio";
+				 "bio bio"
+	                         "socials socials";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 190px 1.3em auto;
+        grid-template-rows: 190px 1.3em auto auto;
 	h3 {
 	    grid-area: name;
 	    text-align: center;
@@ -196,6 +197,18 @@ main {
 	}
 	p {
 	    grid-area: bio;
+	}
+
+	> ul.socials {
+	    grid-area: socials;
+	    list-style: none;
+	    display: flex;
+	    padding: 0;
+	    gap: 1em;
+	    a {
+		color: inherit;
+		text-decoration: underline;
+	    }
 	}
     }
 }

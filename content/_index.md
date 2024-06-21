@@ -93,3 +93,13 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
   which newly enables efficient multiplexing of a single serial channel
   across apps.
 
+*
+  ### Alexandru Radovici
+
+  ![Headshot photo of Alexandru Radovici](speakers/alexandru_radovici.jpg)
+
+  #### Teaching Embedded Systems with Tock
+
+  Alexandru Radovici is an Associate Professor at the Politehnica University in
+  Bucharest where he introduced the first Rust development course for embedded
+  systems. He has been contributing to Tock for almost four years.

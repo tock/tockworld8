@@ -60,12 +60,16 @@ advance!**
     <th></th>
     <th>Joint<br/>
     <small>(Livestreamed to both rooms)</small></th>
-    <th>Security Track (1242)</th>
-    <th>Networking Track (1202)</th>
+    <th>Security Track (1242)<br />
+    <small>Lead: Leon Schuermann</small></th>
+    <th>Networking Track (1202)<br />
+    <small>Lead: Tyler Potyondy</small></th>
   </tr>
   <tr>
     <td>8:10</td>
     <td><i>Continental Breakfast (1244)</i></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>9:00</td>
@@ -78,34 +82,46 @@ advance!**
     <td>Computer Setup</td>
   </tr>
   <tr>
+    <td>9:30</td>
+    <td></td>
+    <td>HOTP Introduction</td>
+    <td>Thread Introduction</td>
+  </tr>
+  <tr>
     <td>9:50</td>
     <td><i>Coffee Break (1244)</i></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>10:00</td>
     <td></td>
-    <td>Secure Element</td>
-    <td>Thread Networking</td>
+    <td>HOTP Userspace Application</td>
+    <td>Thread Sensor App</td>
   </tr>
   <tr>
     <td>12:00</td>
     <td><i>Lunch Break (1244/Courtyard)</i></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>13:00</td>
     <td></td>
-    <td>Encapsulated Functions</td>
-    <td>Remote Update</td>
+    <td>HOTP Continued</td>
+    <td>Thread Control App</td>
   </tr>
   <tr>
     <td>14:30</td>
     <td><i>Coffee Break (1244)</i></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>14:45</td>
     <td></td>
-    <td>App signing</td>
-    <td>Device discovery</td>
+    <td>Encryption Oracle</td>
+    <td>Faults and Robustness</td>
   </tr>
   <tr>
     <td>16:15</td>

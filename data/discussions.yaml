@@ -32,7 +32,7 @@
 
       * Core, Amit Levy
       * Networking, Alex Radovici
-      * OpenTitan, Brad Campbell
+      * OpenTitan, Brad Campbell / Johnathan Van Why
 
 - break: true
   time: 10:40
@@ -45,8 +45,8 @@
   abstract: |
     Reports from working groups:
 
-      * Documentation, Brad Campbell
-      * libtock-c, Hudson Ayers
+      * Documentation, Branden Ghena
+      * libtock-c, Brad Campbell
       * libtock-rs, Johnathan Van Why
       * Tools, Brad Campbell
 

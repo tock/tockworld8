@@ -58,8 +58,7 @@ advance!**
 <table>
   <tr>
     <th></th>
-    <th>Joint<br/>
-    <small>(Livestreamed to both rooms)</small></th>
+    <th>Joint</th>
     <th>Security Track (1242)<br />
     <small>Lead: Leon Schuermann</small></th>
     <th>Networking Track (1202)<br />
@@ -73,7 +72,8 @@ advance!**
   </tr>
   <tr>
     <td>9:00</td>
-    <td colspan="3">Welcome & Tock Introduction</td>
+    <td colspan="3">Welcome & Tock Introduction
+    <small>(Livestreamed to both rooms)</small></td>
   </tr>
   <tr>
     <td>9:10</td>
@@ -89,9 +89,7 @@ advance!**
   </tr>
   <tr>
     <td>9:50</td>
-    <td><i>Coffee Break (1244)</i></td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><i>Coffee Break (1244)</i></td>
   </tr>
   <tr>
     <td>10:00</td>
@@ -101,9 +99,7 @@ advance!**
   </tr>
   <tr>
     <td>12:00</td>
-    <td><i>Lunch Break (1244/Courtyard)</i></td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><i>Lunch Break (1244/Courtyard)</i></td>
   </tr>
   <tr>
     <td>13:00</td>
@@ -113,9 +109,7 @@ advance!**
   </tr>
   <tr>
     <td>14:30</td>
-    <td><i>Coffee Break (1244)</i></td>
-    <td></td>
-    <td></td>
+    <td colspan="3"><i>Coffee Break (1244)</i></td>
   </tr>
   <tr>
     <td>14:45</td>

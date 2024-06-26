@@ -91,6 +91,13 @@
   title: "Breakout: Vision and Future Developments (1)"
   time: 14:00
   room: 1241, 1242, 1244, 1202
+  abstract: |
+    Session A:
+
+      * Non execute-in-place (XIP) platforms
+      * Code size reduction
+      * [Tock registers](../notes/breakout-tock-registers/)
+      * Formal methods with Tock
 
 - break: true
   time: 14:50
@@ -103,6 +110,13 @@
   title: "Breakout: Vision and Future Developments (2)"
   time: 15:00
   room: 1241, 1242, 1244, 1202
+  abstract: |
+    Session B:
+
+      * Automated driver implementations
+      * Panic-free kernel
+      * [Multicore](../notes/breakout-multicore/)
+      * CHERI
 
 - speaker: Amit Levy
   affiliation: Princeton

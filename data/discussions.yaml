@@ -7,6 +7,7 @@
   affiliation: UC San Diego
   affiliation_link: https://ucsd.edu
   title: Welcome & Introductions
+  title_link: ../slides/tockworld_7_conference.pdf
   time: 9:00
   room: 1242
 
@@ -14,6 +15,7 @@
   affiliation: Princeton
   affiliation_link: https://www.princeton.edu
   title: The State of Tock
+  title_link: ../slides/state_of_tock.pdf
   time: 9:15
   room: 1242
 
@@ -21,6 +23,7 @@
   affiliation: UVA
   affiliation_link: https://www.virginia.edu
   title: Follow up from TockWorld 6
+  title_link: ../slides/revisiting_tockworld6.pdf
   time: 9:45
   room: 1242
 
@@ -30,9 +33,9 @@
   abstract: |
     Reports from working groups:
 
-      * Core, Amit Levy
-      * Networking, Branden Ghena
-      * OpenTitan, Brad Campbell / Johnathan Van Why
+      * [Core](../slides/wg-core.pdf), Amit Levy
+      * [Networking](../slides/wg-network.pdf), Branden Ghena
+      * [OpenTitan](../slides/wg-opentitan.pdf), Brad Campbell / Johnathan Van Why
 
 - break: true
   time: 10:40
@@ -45,10 +48,10 @@
   abstract: |
     Reports from working groups:
 
-      * Documentation, Branden Ghena
-      * libtock-c, Brad Campbell
-      * libtock-rs, Johnathan Van Why
-      * Tools, Brad Campbell
+      * [Documentation](../slides/wg-documentation.pdf), Branden Ghena
+      * [libtock-c](../slides/libtock-c.pdf), Brad Campbell
+      * ~~Libtock-rs, Johnathan Van Why~~
+      * [Tools](../slides/wg-tools.pdf), Brad Campbell
 
 - speaker: Amit Levy
   affiliation: Princeton

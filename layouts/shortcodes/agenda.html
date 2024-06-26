@@ -16,7 +16,11 @@
 </li>
 {{ else }}
 <li>
+{{ if $talk.title_link }}
+  <p class="title"><a href="{{ $talk.title_link }}">{{ $talk.title }}</a></h2>
+{{ else }}
   <p class="title">{{ $talk.title }}</h2>
+{{ end }}
   <p class="speaker">{{ $talk.speaker }}<p>
   <p class="institution"><a href="{{ $talk.affiliation_link }}">{{ $talk.affiliation }}</a></p>
   <p class="time">{{ $talk.time }}</p>

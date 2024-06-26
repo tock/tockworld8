@@ -97,7 +97,7 @@
       * Non execute-in-place (XIP) platforms
       * Code size reduction
       * [Tock registers](../notes/breakout-tock-registers/)
-      * Formal methods with Tock
+      * [Formal methods with Tock](../notes/breakout-formal-methods/)
 
 - break: true
   time: 14:50

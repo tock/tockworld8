@@ -104,11 +104,12 @@
 - speaker: Amit Levy
   affiliation: Princeton
   affiliation_link: https://www.princeton.edu
-  title: "Discussion: Governance and Funding"
+  title: "Discussion: Governance, Funding, and TockWorld 8"
   time: 16:00
   room: 1242
   abstract: |
     How should the Tock Foundation support the Tock project and become self-sustaining?
+    What should TockWorld 8 look like?
 
 - speaker: Pat Pannuto
   affiliation: UC San Diego

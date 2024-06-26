@@ -54,6 +54,7 @@
 
 - speaker: Amit Levy
   affiliation: Princeton
+  affiliation_link: https://www.princeton.edu
   title: "Discussion: Userspace Libraries"
   title_link: ../slides/discussion_userspace_libraries.pdf
   time: 11:30

@@ -23,7 +23,7 @@ with you, please plan to attend!
 <small>_If you would like to add something to contributors day, please reach
 out to the TW7 organizers (Pat, Brad, & Amit)._</small>
 
-<details>
+<details open>
   <summary>Contributor's Day Agenda</summary>
 {{% agenda discussions %}}
 </details>

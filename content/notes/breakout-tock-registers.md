@@ -1,6 +1,6 @@
 # Tock Registers Breakout
 
-* Jonathan Van Why
+* Johnathan Van Why
 * Alyssa Haroldsen
 * Max Cura (Stanford)
 * Kevin Lee (Microsoft)
@@ -34,13 +34,13 @@ Inferred offsets
 * For the LiteX board, since it’s an FPGA you can compile memory bus width at build time
    * And they allow any bit-size registers on any bit-size bus
 * Branden: Does LiteX need multiple, or could it just pick one?
-   * Jonathan: People might need to have multiple implementations
-   * Jonathan: We could have our implementations somehow generically specify which LiteX config you are supporting
+   * Johnathan: People might need to have multiple implementations
+   * Johnathan: We could have our implementations somehow generically specify which LiteX config you are supporting
 * Branden: This is like a family of Microcontrollers? Where you might have extra registers or different offsets?
    * Pat: That’s usually only one or two small changes which could be cfg’d
    * Pat: But LiteX would be an entirely separate version
 * Pat: It feels like LiteX is a special case, and they are okay to write things multiple times
-* Jonathan: The Bus Adapter allows you to talk to differently sized things
+* Johnathan: The Bus Adapter allows you to talk to differently sized things
 * Branden: Is this necessary? I don’t want tons of overcomplication for one special-purpose things
 
 unsafe

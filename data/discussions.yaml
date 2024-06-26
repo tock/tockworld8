@@ -114,9 +114,9 @@
     Session B:
 
       * Automated driver implementations
-      * Panic-free kernel
+      * [Panic-free kernel](../notes/breakout-remove-kernel-panics/)
       * [Multicore](../notes/breakout-multicore/)
-      * CHERI
+      * [CHERI](../notes/breakout-cheri/)
 
 - speaker: Amit Levy
   affiliation: Princeton

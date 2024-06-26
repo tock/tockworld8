@@ -113,7 +113,7 @@
   abstract: |
     Session B:
 
-      * Automated driver implementations
+      * [Automated driver implementations](../notes/breakout-automated-driver-generation/)
       * [Panic-free kernel](../notes/breakout-remove-kernel-panics/)
       * [Multicore](../notes/breakout-multicore/)
       * [CHERI](../notes/breakout-cheri/)

@@ -20,7 +20,7 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
 
   ### Florian Gilcher
 
-  #### Keynote
+  #### Keynote: tRust
 
   Florian Gilcher is one of the co-founders and management directors
   of Ferrous Systems. Previously, he was part of the Rust project, as

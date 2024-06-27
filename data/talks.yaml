@@ -14,11 +14,20 @@
 - speaker: Florian Gilcher
   affiliation: Ferrous Systems
   affiliation_link: https://ferrous-systems.com
-  title: Keynote
+  title: "Keynote: tRust"
   time: 9:00
   room: 1242
   abstract: |
+    Scale and performance have for a long time been the dominant
+    topics in software development. However, that has changed over the
+    recent years. A major topic nowadays is trust.
 
+    But how did that happen? And what does this have to do with Rust?
+    And how can we engage with it?
+
+    This talk tells of a mindshift that silently took its course, the
+    reasons for it, and gives practical guidance on how to deal with
+    it.
 - break: true
   time: 10:00
   title: Coffee Break

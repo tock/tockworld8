@@ -142,9 +142,9 @@
 
       * _Encapsulated Functions_, Leon Schuermann, [Princeton](https://princeton.edu)
       * _OpenThread_, Tyler Potyondy, [UC San Diego](https://ucsd.edu)
-      * _Dynamic Application Loading_, TBD, [UVA](https://www.virginia.edu)
+      * _Process Loading_, Brad Campbell, [UVA](https://www.virginia.edu)
       * _Reverse Engineering & Securing an Insulin Pump_, Alex Bellon, [UC San Diego](https://ucsd.edu)
-      * [open slot]
+      * _Verifying memory safety and process isolation in Tock_, Evan Johnson, [UC San Diego](https://ucsd.edu)
 
 - speaker: Alexandru Radovici
   affiliation: Politehnica University of Bucharest

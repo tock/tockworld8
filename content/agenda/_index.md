@@ -34,7 +34,7 @@ Day two will feature a more general program focused around Tock, root of trust,
 and secure embedded devices. All who are interested in Tock and security-focused
 operating systems are invited to attend.
 
-<details open>
+<details>
   <summary>Conference Day Agenda</summary>
 {{% agenda talks %}}
 </details>
@@ -51,7 +51,7 @@ and networking.
 **Please follow the guide [here](../tutorial/setup) to setup your machine in
 advance!**
 
-<details>
+<details open>
   <summary>Tutorial Day Agenda</summary>
 <table>
   <tr>

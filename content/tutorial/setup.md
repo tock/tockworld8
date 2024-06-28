@@ -17,7 +17,7 @@ session! To make the tutorial as productive as possible, we recommend you
         $ sudo apt install git wget zip curl python3 python3-pip python3-venv
 
         # MacOS
-        $ brew install wget pipx git
+        $ brew install wget pipx git coreutils
 
 1.  Clone the Tock kernel repository and the C userspace library.
 

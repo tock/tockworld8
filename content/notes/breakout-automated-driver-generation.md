@@ -1,3 +1,10 @@
+
+Attendees:
+ - Brad Campbell
+ - Pat Pannuto
+ - Bobby Reynolds
+ - Evan Johnson
+
 Automated Driver Generation ("syscall.rs")
 - driver definition: basically the source code
 - idea: create some file which defines all of the valid syscalls, that can expand to the match statement in the capsule

@@ -98,7 +98,7 @@
   abstract: |
     Session A:
 
-      * Non execute-in-place (XIP) platforms
+      * [Non execute-in-place (XIP) platforms](../notes/breakout-non-xip/)
       * Code size reduction
       * [Tock registers](../notes/breakout-tock-registers/)
       * [Formal methods with Tock](../notes/breakout-formal-methods/)

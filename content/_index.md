@@ -98,7 +98,7 @@ Are you a student interested in attending TockWorld? [Apply here](grant) for a t
 
   #### Multiplexing Serial Port Messages
 
-  Amalia is a Computer Engineering graduate now at Wyloiondrin.
+  Amalia is a Computer Engineering graduate from Politehnica Bucharest and now a software engineer at Wyliodrin.
   She has been doing Rust in embedded systems for two years. Her bachelor
   project consisted of a contribution to the UART HIL mechanism in Tock
   which newly enables efficient multiplexing of a single serial channel

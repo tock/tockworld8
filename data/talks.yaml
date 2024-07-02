@@ -111,7 +111,7 @@
     provide a temporally safe C heap.
 
 - speaker: Amalia Camelia Simion
-  affiliation: Wyliodrin
+  affiliation: Politehnica Bucharest & Wyliodrin
   affiliation_link: https://wyliodrin.com/
   title: Multiplexing Serial Port Messages
   time: 14:15
@@ -160,7 +160,6 @@
     think it might be better for education. We also propose a number
     of modifications, which we are already working on, that would make
     Tock a excellent choice for teaching embedded courses.
-
 
 - speaker: Pat Pannuto
   affiliation: UC San Diego

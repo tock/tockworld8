@@ -1,5 +1,15 @@
-Lawrence Esswood -> CHERI, CHERIOS at Cambridge
-Kevin Lee -> Microsoft
+---
+title: "Breakout: CHERI"
+---
+
+## Attendees
+
+- Lawrence Esswood, Google, CHERI & CHERIOS at Cambridge
+- Kevin Lee, Microsoft
+- Florian Gilcher, Ferrous Systems
+- Amit Levy
+
+## Notes
 
 Overview:
 * RISC-V Cheri seems to be the future
@@ -28,9 +38,9 @@ Prototyping tock:
   * What is purecap Rust?
 
 
-Takeaway:
-* There’s some keenness for RISC-V changes from another team
-* The rustc support is the big blocker
-* TockOS can be the lead user for the RISC-V
-* Early started project to RISC-V
+## Takeaway
 
+* rustc support, particularly for pointer provenance, is the big blocker
+* Tock OS can be the lead user to advocate for rustc changes
+* Other teams at Google & Microsoft interested in CHERI support in rustc as well
+* Follow up with plan to push for support in Rust project

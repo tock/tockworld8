@@ -1,11 +1,15 @@
++++
+title = "Breakout: Automated Driver Generation"
++++
 
-Attendees:
+## Attendees
  - Brad Campbell
  - Pat Pannuto
  - Bobby Reynolds
  - Evan Johnson
 
-Automated Driver Generation ("syscall.rs")
+## Notes
+
 - driver definition: basically the source code
 - idea: create some file which defines all of the valid syscalls, that can expand to the match statement in the capsule
 - question
@@ -26,6 +30,8 @@ Automated Driver Generation ("syscall.rs")
     - verify that each command only returns _one_ syscall success type
     - limit the set of `ErrorCode`s that are valid
 - generate the userspace bindings based on the kernel binary
-- Plan
-  - Move markdown docs to rust source files
-  - Tooling parses source rust to generate c/rust code for userspace binding
+
+## Plan
+
+- Move markdown docs to rust source files
+- Tooling parses source rust to generate c/rust code for userspace binding

@@ -1,11 +1,16 @@
-# Non-XIP Discussion
+---
+title: "Breakout: Non-XIP Discussion"
+---
 
-Attending:
+## Attending
+
 - Lawrence Esswood
 - Amit Levy
 - Bobby Reynolds
 - Brad Campbell
 - Leon Schuermann
+
+# Notes
 
 - Amit: Non-XIP platforms are "the new norm" (for a subset of users / use-cases)
 

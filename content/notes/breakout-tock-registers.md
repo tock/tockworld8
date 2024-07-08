@@ -1,4 +1,8 @@
-# Tock Registers Breakout
+---
+title: "Breakout: Tock Registers"
+---
+
+## Attendees:
 
 * Johnathan Van Why
 * Alyssa Haroldsen
@@ -11,8 +15,10 @@
 Addressing open questions in Tock registers PR
 https://github.com/tock/tock/pull/4001
 
+## Notes
 
 Background
+
 * Tock registers two goals: sound + nice to use
 * Succeed at nice to use
 * Totally failed at the soundness?
@@ -62,4 +68,3 @@ User ergonomics
    * And a read/write mask
 * Alyssa: So I’d implement that as a data type, which can be guaranteed at compile time, then the runtime doesn’t need to check the value
 * Pat: Maybe we could disallow the .val() method and restrict some register accesses to only use the enum set bit interface
-

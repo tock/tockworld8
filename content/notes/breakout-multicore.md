@@ -1,10 +1,21 @@
-# Multicore
+---
+title: "Breakout: Multicore"
+---
 
-Agenda:
+## Attendees
+
+- Leon Schuermann
+- Alexandru Radovici
+- Branden Ghena
+- Petteri
+
+## Agenda
 - Define what multicore means in the context of Tock?
 - Use-cases / examples
 - Existing effort
 - Next steps
+
+## Use cases
 
 ### Leon's Use Case
 * Leon: Princeton working on systems such as information leak detection, which runs on two platforms and compares results
@@ -33,7 +44,7 @@ Agenda:
 * SoC where Tock runs on some co-processor, but the another core which runs some different OS (maybe Tock, or maybe otherwise)
 * So IPC between applications on different CPU would be valuable here
 
-### High-Level Goals and Considerations
+## High-Level Goals and Considerations
 - Isolate untrusted / semitrusted workloads
 - Use co-processor for dedicated computation-heavy tasks
 - Applications should be running on either core, system calls should still work "as normal"? Basically SMP
@@ -54,23 +65,21 @@ Agenda:
     - Alex: Would you have the ability to queue messages, or just write directly into an allowed buffer?
     - Leon: We should almost certainly have multiple different IPC implementations / interfaces
 
-### Issues
+## Issues
 - Tock is inherently single-threaded, has its merit
   - Making it into multi-threaded system is going to be hard and have tradeoffs
 - Multi-kernel with Linux has problems -- scheduling efficiency, etc.
 - Peripherals cannot be shared between kernels
-- 
+-
 
 ### Takeaways
 - A non-goal is one kernel that controls two or more cores. All multicore designs are also multikernel designs.
 - Applications are located on a single core/kernel and do NOT migrate at runtime.
     - The only eventual migration would be stopping the application, moving the application, and restarting (essentially re-programming which one it's installed on)
 - IPC efforts for inter-process communication should also support inter-processor communication
-- 
 
 ### Next Steps
+
 1. Fix IPC (remove current? Add new implementation(s))
 2. Upstream CoreLocal
 3. Timeline for Upstreaming
-
-

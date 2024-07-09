@@ -5,7 +5,10 @@ title: "Breakout: Formal Methods"
 ## Attendees
 
 - Evan Johnson
-- ??
+- Samir
+- Tyler Potyondy
+- Florian Gilcher
+- Petteri Kangaslampi
 
 ## Notes
 

@@ -23,7 +23,7 @@ with you, please plan to attend!
 <small>_If you would like to add something to contributors day, please reach
 out to the TW7 organizers (Pat, Brad, & Amit)._</small>
 
-<details>
+<details open>
   <summary>Contributor's Day Agenda</summary>
 {{% agenda discussions %}}
 </details>
@@ -34,7 +34,7 @@ Day two will feature a more general program focused around Tock, root of trust,
 and secure embedded devices. All who are interested in Tock and security-focused
 operating systems are invited to attend.
 
-<details>
+<details open>
   <summary>Conference Day Agenda</summary>
 {{% agenda talks %}}
 </details>
@@ -51,7 +51,7 @@ and networking.
 **Please follow the guide [here](../tutorial/setup) to setup your machine in
 advance!**
 
-<details open>
+<details>
   <summary>Tutorial Day Agenda</summary>
 <table>
   <tr>

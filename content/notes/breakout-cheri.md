@@ -44,3 +44,21 @@ Prototyping tock:
 * Tock OS can be the lead user to advocate for rustc changes
 * Other teams at Google & Microsoft interested in CHERI support in rustc as well
 * Follow up with plan to push for support in Rust project
+
+## Follow-up
+
+- Currently a meta-RFC, goal-setting RFC, "RFC that we want to address CHERI"
+- Useful to present a draft of a CHERI-capable compiler
+  - Ferrous can actually do that
+  - Rust compiler is capable of carrying multiple LLVMs
+- Get discussion going
+- Present a port of Tock OS to CHERI
+
+- Goal-RFC for a non-invasive, types that introduce new types to help build CHERI OSs.
+  - Similar to C path, _eventually_ maybe have a CHERI mode
+
+
+## Academics
+
+- Kent
+- ?

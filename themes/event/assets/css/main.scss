@@ -25,6 +25,8 @@ header {
     width: 100%;
     background-image: url("../background.webp");
     background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
     opacity: 0.9;
     z-index: -1;
   }

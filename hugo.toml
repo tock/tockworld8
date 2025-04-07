@@ -1,6 +1,6 @@
-baseURL = 'https://world.tockos.org/tockworld7'
+baseURL = 'https://world.tockos.org/tockworld8'
 languageCode = 'en-us'
-title = 'TockWorld 7'
+title = 'TockWorld 8'
 theme = 'event'
 
 [params]
@@ -9,16 +9,6 @@ location = "San Diego, CA"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
-
-[[menus.main]]
-name = 'Venue'
-pageRef = 'venue'
-weight = 20
-
-[[menus.main]]
-name = 'Agenda'
-pageRef = 'agenda'
-weight = 30
 
 [markup]
   [markup.goldmark]

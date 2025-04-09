@@ -14,7 +14,7 @@ Renders a menu for the given menu ID.
   <nav>
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-    <li>{{- partial "ticket.html" (dict "Text" "Register" )}}</li>
+    {{ if site.Params.registration }}<li>{{- partial "ticket.html" (dict "Text" "Register" )}}</li>{{ end }}
     </ul>
   </nav>
 {{- end }}

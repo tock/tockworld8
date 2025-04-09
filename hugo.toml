@@ -6,6 +6,7 @@ theme = 'event'
 [params]
 date = "September 5, 2025"
 location = "Seattle, WA"
+registration = false
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
@@ -16,3 +17,18 @@ location = "Seattle, WA"
       [markup.goldmark.parser.attribute]
         block = true
         title = true
+
+[[menus.main]]
+name = "Venue"
+pageRef = "venue"
+weight = 10
+
+[[menus.main]]
+name = "Agenda"
+pageRef = "agenda"
+weight = 20
+
+[[menus.main]]
+name = "Submit a Talk"
+pageRef = "cfp"
+weight = 30

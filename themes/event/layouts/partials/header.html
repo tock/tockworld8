@@ -3,5 +3,5 @@
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 {{ if .Site.Params.registration }}<div class="buy">{{ partial "ticket.html" (dict "Text" "Register to Attend!" ) }}</div>{{ end }}
 <div class="cfp">
-  <a href="{{ relURL "cfp" }}">Submit a Talk</a>
+  <a href="{{ relURL "register" }}">Register</a>
 </div>

@@ -215,6 +215,14 @@ main {
     }
 }
 
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 2em;
+  width: 100%;
+}
+
 footer {
   font-size: 0.8em;
 }

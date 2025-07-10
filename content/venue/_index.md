@@ -27,17 +27,27 @@ from Microsoft.
 
 #### Other Airport Options
 
-Portland
+Other major airports within a reasonable drive or train include
+[Portland International Airport](https://www.flypdx.com) and
+[Vancouver International Airport](https://www.yvr.ca).
 
-Vancouver
+[King County International
+Airport](https://kingcounty.gov/en/dept/executive-services/transit-transportation-roads/airport)
+is a smaller airport in Seattle with commercial flights to/from the
+San Juan Islands; Victoria, BC; Portland; and Bellingham.
 
-Boeing Airport
-
-Lake Union Seaport
+There are a number of seaplane bases on Lake Union and Lake Washington
+with commercial flights to the San Juan Island and throughout British
+Columbia.
 
 ### By Train
 
-Amtrak Cascades
+[Amtrak Cascades](https://amtrakcascades.com/) runs from Vancouver, BC
+via Seattle down the Washington State and Oregon to Eugene.
+
+[Amtrak Coast Starlight](https://www.amtrak.com/coast-starlight-train)
+runs between Los Angeles and Seattle through Santa Barbara, the San
+Francisco Bay Area, Sacramento and Portland.
 
 ### By Car
 

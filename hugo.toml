@@ -1,4 +1,4 @@
-baseURL = 'https://world.tockos.org/tockworld8'
+baseURL = 'https://world.tockos.org/tockworld8/'
 languageCode = 'en-us'
 title = 'TockWorld 8'
 theme = 'event'

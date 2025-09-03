@@ -2,7 +2,6 @@
 <li>
 <p class="title">Topic</p>
 <p class="time">Time</p>
-<p class="room">Room</p>
 <p class="speaker">Speaker</p>
 </li>
 {{ $key := .Get 0 }}
@@ -11,7 +10,6 @@
 <li class="break">
   <p class="title">{{ $talk.title }}</p>
   <p class="time">{{ $talk.time }}</p>
-  <p class="room">{{ $talk.room }}</p>
   <p class="description">{{ $talk.description }}</p>
 </li>
 {{ else }}
@@ -24,7 +22,6 @@
   <p class="speaker">{{ $talk.speaker }}<p>
   <p class="institution"><a href="{{ $talk.affiliation_link }}">{{ $talk.affiliation }}</a></p>
   <p class="time">{{ $talk.time }}</p>
-  <p class="room">{{ $talk.room }}</p>
   <div class="description">{{ $talk.abstract }}</div>
 </li>
 {{ end }}

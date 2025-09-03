@@ -3,4 +3,4 @@ title = "Agenda"
 draft = false
 +++
 
-TBD
+{{% agenda talks %}}

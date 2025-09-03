@@ -1,0 +1,232 @@
+- speaker: Amit Levy
+  affiliation: Better Bytes
+  affiliation_link: https://betterbytes.org/
+  title: Welcome & State of Tock
+  time: 9:00
+
+- break: true
+  time: 9:45
+  title: Coffee Break
+
+- speaker: Tyler Potyondy
+  affiliation: UCSD
+  affiliation_link: https://ucsd.edu
+  title: "Just because you can doesn't mean you should -- Rust TypeStates for improved driver safety"
+  time: 10:15
+  abstract: |
+
+    Hardware provides driver authors both a strict specification of the things a
+    driver is allowed to do, and a highly permissive memory-mapped I/O
+    interface full of things a driver can do. Using the Rust type system,
+    procedural macros, and a novel extension to typestate programming, we
+    present our system that exclusively uses Rust to statically enforce Tock
+    drivers' adherence to hardware's specifications, and that drivers only "do
+    the things they should do". We achieve this all while imposing minimal to
+    no overheads in runtime and code size.
+
+    In this talk, I will present our system, describe how it can help improve
+    the robustness of drivers in Tock, and finally detail a case study of how
+    our system can enable developers to confidently program/utilize
+    asynchronous hardware.
+
+- speaker: Alexandru Radovici
+  affiliation: Wyliodrin
+  affiliation_link: https://wyliodrin.com
+  title: "Enabling the usage embedded-hal-async based drivers in the Tock kernel"
+  time: 10:45
+  abstract: |
+
+    Using Rust in embedded systems becomes more and more popular. Embedded
+    frameworks and operating systems written in Rust are emerging every day.
+    The Rust embedded working group has stabilised a set of traits, the
+    embedded-hal and their asynchronous version, the embedded-hal-async.
+    Frameworks like RTIC and Embassys and operating systems like Arial OS are
+    based on these. Due to the standard traits, drivers can easily be migrated
+    between them.
+
+    Tock has a different approach to writing drivers, which makes it somehow
+    disconnected from the ecosystem. We think that connecting Tock to the rest
+    of the ecosystem will increase Tock's usage. Synchronous drivers, those
+    using embedded-hal, are not portable to Tock as they break the way in which
+    Tock works. Asynchronous drivers should be portable to Tock, as Tock's
+    driver model is asynchronous. The main difference is that Tock does not
+    support async/.await.
+
+    This talk will present the ways in which we have tried to implement an
+    asynchronous executor within the Tock kernel, without breaking the Tock's
+    rules and using a minimum number of Rust unstable features. We will present
+    the design decisions that we have made and the limitations that it
+    presents. We will discuss about the drawbacks that the solution has and
+    advantages it provides.
+
+
+
+- speaker: Bobby Reynolds
+  affiliation: Microsoft
+  affiliation_link: https://microsoft.com
+  title: Synchronization in Tock and Pluton
+  time: 11:15
+  abstract: |
+
+    In spite of its single-threaded nature, the Tock OS kernel is vulnerable to
+    certain types of race conditions due to its highly concurrent,
+    interrupt-driven event loop. All but the most trivial operations generally
+    require multiple turns around this loop, and each turn presents a chance
+    for new activity which may modify the system state and interfere with
+    ongoing operations.
+
+    This presentation will walk through different categories of race conditions
+    and discuss the solution space, including the existing “Mux” pattern and a
+    proposal for a new, general-purpose “Mutex” object. Along the way,
+    discussion will be motivated using case studies drawn from both the
+    upstream Tock community as well as challenges faced internally by the
+    Pluton team at Microsoft.
+
+
+- break: true
+  time: 12:00
+  title: Lunch
+  room: Mixer
+
+
+
+
+
+- speaker: Beshr Islam Bouli
+  affiliation: zeroRISC
+  affiliation_link: https://zerorisc.com
+  title: Enabling LLVM PIC in Tock OS
+  time: 12:45
+  abstract: |
+
+    This session shares progress on enabling position-independent code (PIC) in
+    the Tock OS, focusing on integrating ROPI/RWPI support across LLVM, Rust,
+    and Tock userland. I’ll discuss challenges encountered in getting PIC code
+    to compile and run on MMU-less systems, how LLVM’s ePIC model fits in, and
+    early steps toward upstreaming required changes. The talk will also touch
+    on how this work lays the groundwork for more dynamic embedded apps in
+    Tock.
+
+
+
+- speaker: Darius-Andrei Jipa
+  affiliation: OxidOS Automotive
+  affiliation_link: https://oxidos.io
+  title: ARMv8-M Architecture Port
+  time: 13:15
+  abstract: |
+
+    This talk presents the porting of the Tock operating system to the ARMv8-M
+    architecture, targeting modern Cortex-M processors. Porting Tock to ARMv8-M
+    required significant care to be taken with the TrustZone-M, requiring
+    updates to the context switch mechanism, interrupt handling, and support
+    for the ARMv8-M exception model. The port also introduces support for the
+    Secure Attribution Unit (SAU) and the Memory Protection Unit(MPU), enabling
+    fine-grained control over memory access permissions. Evaluation on ARMv8-M
+    hardware demonstrates that Tock retains its minimal overhead and safety
+    guarantees, while opening new opportunities for building secure,
+    energy-efficient IoT systems on next-generation microcontrollers.
+
+- speaker: Gongqi Huang
+  affiliation: Princeton
+  affiliation_link: https://princeton.edu
+  title: Tick-Tock-Tock-Tock... Tock Goes Multicore
+  time: 13:45
+  abstract: |
+
+    Multicore microcontrollers are ubiquitous in today's embedded
+    world. These platforms are often architected in a way that provide
+    opportunity for strong security and performance isolation between
+    parallel execution contexts. For instance, the Raspberry Pi RP2040
+    features a dual-core Arm Cortex-M0+ processor, a crossbar switch, and
+    multiple separate SRAM blocks.
+
+    The Tock operating system, on the other hand, is designed for
+    single-core systems. As a result, it cannot fully leverage hardware
+    parallelism and resource isolation on such platforms in its current
+    form. To bridge the gap, we adopt a multikernel approach, running
+    multiple instances of the Tock kernel in parallel --- one per CPU core
+    --- while preserving Tock's single-core assumptions. These assumptions
+    often manifest in many aspects of its design and implementation, such
+    as its use of interior mutability, single-threaded asynchronous device
+    drivers that is easy-to-reason, etc.
+
+    In this talk, I'll discuss how we realize multikernel Tock and the
+    design choices involved. For example, we use a "split-kernel" approach
+    to scope global names to each kernel-local context with some linker
+    magic. Alternatively, a more compact and memory efficient
+    `ThreadLocal` construct can be used to localize per-kernel global
+    names. What are pros and cons of each approach?
+
+    Additionally, we propose a new construct called `Portal`, which serves
+    as a sharing primitive across kernel boundaries. I'll explain how we
+    use this construct to share peripheral devices while preserving both
+    the assumptions of existing Tock driver implementations and Rust's
+    exclusive reference semantics.
+
+- break: true
+  time: 14:15
+  title: Coffee Break
+
+
+
+- speaker: Hussain Miyaziwala
+  affiliation: Microsoft
+  affiliation_link: https://microsoft.com
+  title: Data Movement Patterns in Tock OS and Pluton
+  time: 14:45
+  abstract: |
+
+    Tock’s default I/O and crypto drivers rely on statically allocated kernel
+    buffers, which in highly constrained systems like Pluton lead to
+    significant RAM waste and fixed transfer limits.
+
+    This talk presents a “lazy” push/pull pattern: instead of copying into
+    per-client buffers, drivers invoke callbacks to stream data on demand.
+    We’ll illustrate with a redesigned UART interface and our real-world ECC
+    capsule, quantify memory savings, surface key design choices(naming, length
+    negotiation, chunking), and invite feedback on upstreaming this pattern as
+    reusable traits or an I/O subsystem.
+
+
+- speaker: Samir Rashid
+  affiliation: UCSD
+  affiliation_link: https://ucsd.edu
+  title: Formally verifying tock alarm subsystem in verus
+  time: 15:30
+  abstract: |
+
+    My MS thesis proves Tock alarms behave "correctly" using the Verus Rust
+    formal verification tool. I will present the motivational timing bugs,
+    outline the approach, and demonstrate the feasibility of verifying existing
+    codebases.
+
+
+- speaker: Evan Johnson
+  affiliation: NYU
+  affiliation_link: https://nyu.edu
+  title: Verified Isolation in Tock
+  time: 16:00
+  abstract: |
+
+    Tock's core security guarantee is that processes remain isolated from one
+    another---one misbehaving Tock process should not be able to read or write
+    the sensitive data of another Tock process. To enforce this guarantee, Tock
+    relies on a combination of hardware memory protection (the MPU) and
+    language-level techniques (Rust), which, in practice, can be difficult to
+    get right.
+
+    In this talk, I'll discuss my team's efforts to formally verify process
+    isolation in Tock. I'll highlight several subtle isolation-breaking bugs we
+    uncovered during the verification effort, as well as opportunities for
+    optimization that emerged from formally modeling Tock's MPU interface. I'll
+    conclude with a discussion of our ongoing and future work.
+
+
+- speaker: Amit Levy
+  affiliation: Better Bytes
+  affiliation_link: https://betterbytes.org/
+  title: Closing Remarks
+  time: 16:30
+
+

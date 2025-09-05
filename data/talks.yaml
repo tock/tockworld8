@@ -2,6 +2,7 @@
   affiliation: Better Bytes
   affiliation_link: https://betterbytes.org/
   title: Welcome & State of Tock
+  title_link: slides/state-of-tock.pdf
   time: 9:00
 
 - break: true
@@ -228,5 +229,3 @@
   affiliation_link: https://betterbytes.org/
   title: Closing Remarks
   time: 16:30
-
-

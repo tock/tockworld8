@@ -15,7 +15,7 @@
 {{ else }}
 <li>
 {{ if $talk.title_link }}
-  <p class="title"><a href="{{ $talk.title_link }}">{{ $talk.title }}</a></h2>
+  <p class="title"><a href="{{ absURL $talk.title_link }}"> {{ $talk.title }}</a></h2>
 {{ else }}
   <p class="title">{{ $talk.title }}</h2>
 {{ end }}

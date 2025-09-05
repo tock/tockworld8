@@ -35,6 +35,7 @@
   affiliation: Wyliodrin
   affiliation_link: https://wyliodrin.com
   title: "Enabling the usage embedded-hal-async based drivers in the Tock kernel"
+  title_link: slides/async-tock.pdf
   time: 10:45
   abstract: |
 

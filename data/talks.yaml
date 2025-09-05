@@ -13,6 +13,7 @@
   affiliation: UCSD
   affiliation_link: https://ucsd.edu
   title: "Just because you can doesn't mean you should -- Rust TypeStates for improved driver safety"
+  title_link: slides/type-states.pdf
   time: 10:15
   abstract: |
 

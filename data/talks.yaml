@@ -139,34 +139,12 @@
   abstract: |
 
     Multicore microcontrollers are ubiquitous in today's embedded
-    world. These platforms are often architected in a way that provide
-    opportunity for strong security and performance isolation between
-    parallel execution contexts. For instance, the Raspberry Pi RP2040
-    features a dual-core Arm Cortex-M0+ processor, a crossbar switch, and
-    multiple separate SRAM blocks.
-
-    The Tock operating system, on the other hand, is designed for
-    single-core systems. As a result, it cannot fully leverage hardware
-    parallelism and resource isolation on such platforms in its current
-    form. To bridge the gap, we adopt a multikernel approach, running
-    multiple instances of the Tock kernel in parallel --- one per CPU core
-    --- while preserving Tock's single-core assumptions. These assumptions
-    often manifest in many aspects of its design and implementation, such
-    as its use of interior mutability, single-threaded asynchronous device
-    drivers that is easy-to-reason, etc.
-
-    In this talk, I'll discuss how we realize multikernel Tock and the
-    design choices involved. For example, we use a "split-kernel" approach
-    to scope global names to each kernel-local context with some linker
-    magic. Alternatively, a more compact and memory efficient
-    `ThreadLocal` construct can be used to localize per-kernel global
-    names. What are pros and cons of each approach?
-
-    Additionally, we propose a new construct called `Portal`, which serves
-    as a sharing primitive across kernel boundaries. I'll explain how we
-    use this construct to share peripheral devices while preserving both
-    the assumptions of existing Tock driver implementations and Rust's
-    exclusive reference semantics.
+    world. Yet, Tock, in its current form, cannot fully leverage hardware
+    parallelism as it mainly targets single-core MCUs. To this end,
+    we adopt a multikernel approach --- running an independent Tock kernel
+    instance per CPU core. Efficient peripheral sharing and communication
+    are enabled by transferring ownership of Rust values between Tock
+    instances.
 
 - break: true
   time: 14:15

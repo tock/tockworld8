@@ -175,14 +175,14 @@
 - speaker: Samir Rashid
   affiliation: UCSD
   affiliation_link: https://ucsd.edu
-  title: Formally verifying tock alarm subsystem in verus
+  title: "The Time is Right: Retrofitting Formal Verification on Timers"
+  title_link: slides/The Time is Right - Verifying Tock OS Timers - Tockworld 8.pdf
   time: 15:30
   abstract: |
 
-    My MS thesis proves Tock alarms behave "correctly" using the Verus Rust
-    formal verification tool. I will present the motivational timing bugs,
-    outline the approach, and demonstrate the feasibility of verifying existing
-    codebases.
+    The timers in an operating system underlie everything including scheduler interrupts,
+    radio timeouts, and user alarms. Despite its critical nature, timers are notoriously difficult to test
+    for correctness. We present our work designing a specification for timers and then bolting formal verification onto Tock's timer subsystem. We verify the correctness of Tock's virtual alarms using the Verus Rust formal verification tool.
 
 
 - speaker: Evan Johnson

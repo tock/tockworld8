@@ -78,7 +78,8 @@ TockWorld 8 will take place in Seattle, WA on September 5th, 2025.
 
   #### Formally verifying virtual alarms
 
-  Student at University of California, San Diego. NixOS enthusiast.
+  Samir is a Master's student at University of California, San Diego. Samir's
+  research aims to make operating systems understandable, safe, and correct.
 
   * [WWW](https://godsped.com/)
   * [GitHub](https://github.com/Samir-Rashid)

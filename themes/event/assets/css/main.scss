@@ -336,3 +336,79 @@ ol.agenda {
 	}
     }
 }
+
+footer {
+  font-size: 0.8em;
+}
+
+.conference-footer {
+  background-color: #455A64;
+  border-top: 1px solid #607D8B;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  color: #FFFFFF;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.footer-content h3 {
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+}
+
+.conference-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.conference-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 0 darken(#607D8B, 10%), inset 0 2px 0 lighten(#607D8B, 10%);
+  background: #607D8B;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-family: "Noto Sans Display", sans-serif;
+
+  &:hover {
+    background: lighten(#607D8B, 10%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 0 darken(#607D8B, 10%), inset 0 2px 0 lighten(#7b96a3, 10%);
+  }
+}
+
+.conference-link.current {
+  background-color: #00c1ee;
+  color: #455A64;
+  font-weight: 600;
+  box-shadow: 0 3px 0 darken(#00c1ee, 20%), inset 0 2px 0 lighten(#00c1ee, 10%);
+
+  &:hover {
+    background-color: lighten(#00c1ee, 10%);
+    box-shadow: 0 4px 0 darken(#00c1ee, 20%), inset 0 2px 0 lighten(#00c1ee, 20%);
+  }
+}
+
+@media (max-width: 768px) {
+  .conference-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .conference-link {
+    width: 200px;
+  }
+}

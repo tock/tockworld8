@@ -68,6 +68,7 @@
   affiliation: Microsoft
   affiliation_link: https://microsoft.com
   title: Synchronization in Tock and Pluton
+  title_link: slides/tock-synchronization.pdf
   time: 11:15
   abstract: |
 
